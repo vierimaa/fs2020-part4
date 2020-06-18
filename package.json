@@ -1,0 +1,22 @@
+{
+  "name": "blogilista",
+  "version": "0.0.1",
+  "description": "Fullstack MOOC osa 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olli Vierimaa",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

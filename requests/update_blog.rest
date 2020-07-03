@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/blogs/5ee35464a6e6b202c03571b5
+Content-Type: application/json
+
+{
+    "title": "HTML is Easy",
+    "author": "Olli",
+    "url": "www.youtube.com",
+    "likes": 8
+}

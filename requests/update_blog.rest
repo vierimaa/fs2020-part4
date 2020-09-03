@@ -1,9 +1,10 @@
-PUT http://localhost:3003/api/blogs/5ee35464a6e6b202c03571b5
+PUT http://localhost:3003/api/blogs/5f1494656b55f402da93def1
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjVmMTQ4ZWJkZTlhOTUxMDEzNmY5ZTE1MyIsImlhdCI6MTU5NTM2MzQ3Mn0.x8vgyFdu1ioZVeKr5NTEKJ7R2WSa96IU4plvO8g485A
 
 {
-    "title": "HTML is Easy",
+    "title": "React is hard!",
     "author": "Olli",
     "url": "www.youtube.com",
-    "likes": 8
+    "likes": 55
 }

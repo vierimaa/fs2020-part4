@@ -1,9 +1,10 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjVmMTQ4ZWJkZTlhOTUxMDEzNmY5ZTE1MyIsImlhdCI6MTU5NTM2MzQ3Mn0.x8vgyFdu1ioZVeKr5NTEKJ7R2WSa96IU4plvO8g485A
 
 {
-    "title": "CSS is easy",
+    "title": "No userId",
     "author": "Olli",
     "url": "www.youtube.com",
-    "likes": 10
+    "likes": 55
 }
